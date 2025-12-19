@@ -11,7 +11,7 @@ class OtpPage extends ConsumerStatefulWidget {
 }
 
 class _OtpPageState extends ConsumerState<OtpPage> {
-  final emailC = TextEditingController(text: 'dimas@example.com');
+  final emailC = TextEditingController(text: 'email@example.com');
   final codeC = TextEditingController();
 
   @override
